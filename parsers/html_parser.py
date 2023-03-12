@@ -17,8 +17,11 @@ def parser(link: str, parser: str = "lxml") -> tuple[list[str], list[str]]:
 
 def main():
     text, links = parser("https://pypi.org/project/beautifulsoup4/")
-    print(text)
-    print(links)
+    for par in text:
+        print(par)
+    print()
+    for link in links:
+        print(link)
     
 
 if __name__ == "__main__":
