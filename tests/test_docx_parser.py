@@ -29,4 +29,4 @@ def test_parser_page_counts():
     page_count = 0
     for _ in text:
         page_count += 1
-    assert page_count == 14, f'texts paragraphs do not match, got {len(text)} but 27 expected'
+    assert page_count == 14, f'texts paragraphs do not match, got {len(text)} but 14 expected'
