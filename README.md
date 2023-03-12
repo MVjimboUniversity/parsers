@@ -36,3 +36,5 @@
 
 ## doc parser
 - doc-файлы конвертируются в docx и далее используется docx парсер.
+    - Для Windows используется пакет Python for Windows Extensions (pywin32) для конвертирования.
+    - Для Linux и macOS используется LibreOffice CLI "Lowriter" для конвертирования.
