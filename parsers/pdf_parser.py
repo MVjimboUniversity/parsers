@@ -46,7 +46,7 @@ def main():
     #text = parser(r"http://www-personal.umich.edu/~mejn/courses/2006/cmplxsys899/powerlaws.pdf")
     for page in text:
         print(page)
-    return text
+
 
 if __name__ == "__main__":
     main()
