@@ -4,6 +4,7 @@ PyPDF2 >= 3.0.0
 docx-parser >= 1.0.0
 bs4
 pdfminer
+pywin32
 PyMuPDF
 pytest
 unittest
