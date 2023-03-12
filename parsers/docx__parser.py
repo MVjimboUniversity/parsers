@@ -21,7 +21,7 @@ def parser(path: str) -> list[str]:
 
 
 def main():
-    text = parser(r"parsers\path_to_docx")
+    text = parser(r"G:\Vlad\parsers_real\parsers\test_files\text.doc")
     for paragraph in text:
         print(paragraph)
 

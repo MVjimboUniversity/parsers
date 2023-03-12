@@ -10,7 +10,7 @@ def parser(path: str) -> list[str]:
 
 
 def main():
-    text = parser(r"parsers\path_to_pdf")
+    text = parser(r"test_files\multieng test.pdf")
     for page in text:
         print(page)
 

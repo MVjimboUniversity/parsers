@@ -42,10 +42,10 @@ def parser(path: str) -> list[str]|None:
 
 
 def main():
-    text = parser(r"test_files\multieng test.pdf")
+    text = parser(r"test_files\Hello world test_advanced.pdf")
     #text = parser(r"http://www-personal.umich.edu/~mejn/courses/2006/cmplxsys899/powerlaws.pdf")
-    #for page in text:
-    #    print(page)
+    for page in text:
+        print(page)
     return text
 
 if __name__ == "__main__":
