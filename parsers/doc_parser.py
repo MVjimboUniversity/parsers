@@ -29,7 +29,7 @@ def doc_to_docx(path: str) -> str:
     """
     if platform == "win32":
         windows_converter(path)
-    elif platform == "linux" or platform == "linux2":
+    elif platform in ("linux", "linux2", "darwin"):
         linux_converter(path)
     return path + 'x'
 
