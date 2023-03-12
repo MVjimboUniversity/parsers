@@ -20,13 +20,13 @@
 - На основе PyMuPDF(fitz).
 - Позволяет парсить локальные файлы.
 - Сохраняет струтуру документа.
-- Запустить тесты: `python -m pytest tests/test_pdf_parser.py`
+- Запустить тесты: `python -m pytest tests/test_pdf_parser2.py`
 
 ### pdf_parser3
 - На основе PyPDF2.
 - Позволяет парсить локальные файлы и файлы с удаленных серверов.
 - Сохраняет структуру документа.
-- Запустить тесты: `python -m pytest tests/test_pdf_parser.py`
+- Запустить тесты: `python -m pytest tests/test_pdf_parser3.py`
 
 ## docx parser
 - На основе docx_parser

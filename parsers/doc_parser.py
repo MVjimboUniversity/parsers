@@ -2,7 +2,7 @@ from sys import platform
 import os
 
 from win32com import client as cl
-import docx__parser
+import docx__parser 
 
 
 def windows_converter(path: str) -> None:
@@ -42,7 +42,7 @@ def parser(path: str) -> list[str]:
 def main():
     # Для Windows путь необходимо вводить полностью начиная с корня диска
     # Для Linux проверить наличие lowriter с помощью команды lowriter --version
-    text = parser(r"test_files\text.doc")
+    text = parser(r"D:\Code\University\Mag_2sem\Automatic_systems\parsers\test.doc")
     for paragraph in text:
         print(paragraph)
 
