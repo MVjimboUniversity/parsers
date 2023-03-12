@@ -1,0 +1,8 @@
+lxml >= 4.9.0
+requests >= 2.28
+PyPDF2 >= 3.0.0
+bs4
+pdfminer
+fitz
+pytest
+unittest
