@@ -1,7 +1,7 @@
 import fitz
 
 
-def pdf_parser(path: str) -> list[str]:
+def parser(path: str) -> list[str]:
     text = []
     with fitz.open(path) as doc:
         for page in doc.pages():
@@ -10,7 +10,7 @@ def pdf_parser(path: str) -> list[str]:
 
 
 def main():
-    text = pdf_parser(r"parsers\2006_Congestions_power law.pdf")
+    text = parser(r"parsers\path_to_pdf")
     for page in text:
         print(page)
 

@@ -11,7 +11,7 @@ def get_pdf_content(f) -> list[str]:
     return text
 
 
-def pdf_parser(path: str) -> list[str]|None:
+def parser(path: str) -> list[str]|None:
     file_path = Path(path)
     if file_path.exists():
         with open(path, "rb") as f:
@@ -26,8 +26,8 @@ def pdf_parser(path: str) -> list[str]|None:
 
 
 def main():
-    # text = pdf_parser(r"parsers\2006_Congestions_power law.pdf")
-    text = pdf_parser(r"http://www-personal.umich.edu/~mejn/courses/2006/cmplxsys899/powerlaws.pdf")
+    # text = parser(r"parsers\path_to_pdf")
+    text = parser(r"http://www-personal.umich.edu/~mejn/courses/2006/cmplxsys899/powerlaws.pdf")
     for page in text:
         print(page)
 

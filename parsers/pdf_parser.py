@@ -26,7 +26,7 @@ def extract_text_by_page(f) -> str:
         fake_file_handle.close()
     
 
-def pdf_parser(path: str) -> list[str]|None:
+def parser(path: str) -> list[str]|None:
     filePath = Path(path)
     text = []
     if filePath.exists():
@@ -42,8 +42,8 @@ def pdf_parser(path: str) -> list[str]|None:
 
 
 def main():
-    # text = pdf_parser(r"parsers\2006_Congestions_power law.pdf")
-    text = pdf_parser(r"http://www-personal.umich.edu/~mejn/courses/2006/cmplxsys899/powerlaws.pdf")
+    # text = parser(r"parsers\path_to_pdf")
+    text = parser(r"http://www-personal.umich.edu/~mejn/courses/2006/cmplxsys899/powerlaws.pdf")
     for page in text:
         print(page)
 

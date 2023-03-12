@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import lxml
 
 
-def html_parser(link: str, parser: str = "lxml") -> tuple[list[str], list[str]]:
+def parser(link: str, parser: str = "lxml") -> tuple[list[str], list[str]]:
     response = requests.get(link)
     if response.status_code != 200:
         return None
@@ -12,7 +12,7 @@ def html_parser(link: str, parser: str = "lxml") -> tuple[list[str], list[str]]:
 
 
 def main():
-    text, links = html_parser("https://pypi.org/project/beautifulsoup4/")
+    text, links = parser("https://pypi.org/project/beautifulsoup4/")
     print(text)
     print(links)
     
