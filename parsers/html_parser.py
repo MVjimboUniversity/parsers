@@ -3,11 +3,11 @@ from bs4 import BeautifulSoup
 import lxml
 
 
-def html_parser(link: str) -> tuple[list[str], list[str]]:
+def html_parser(link: str, parser: str = "lxml") -> tuple[list[str], list[str]]:
     response = requests.get(link)
     if response.status_code != 200:
         return None
-    soup = BeautifulSoup(response.text, "lxml")
+    soup = BeautifulSoup(response.text, parser)
     return [s for s in soup.stripped_strings], [a.get('href') for a in soup.find_all('a')]
 
 
