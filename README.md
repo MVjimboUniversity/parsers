@@ -7,13 +7,14 @@
     - `html5lib`;
     - `html.parser`.
 - Не позволяет парсить диначеские сайты, к примеру https://dzen.ru/.
-
+- Запустить тесты: `python -m pytest tests/test_html_parser.py`
 ## pdf парсер
 
 ### pdf_parser
 - На основе PDFMiner.
 - Позволяет парсить локальные файлы и файлы с удаленных серверов.
 - Не сохраняет структуру документа. Удаляет все пробелы. Текст превращается в набор символов.
+- Запустить тесты: `python -m pytest tests/test_pdf_parser.py`
 
 ### pdf_parser2
 - На основе PyMuPDF(fitz).
