@@ -3,9 +3,9 @@ import parsers.docx__parser as docx__parser
 from pathlib import Path
 
 
-URL1 = r'test_files\Hello world test.doc'
-URL2 = r"test_files\multieng test.doc"
-URL3 = r"test_files\text_14_paragraphs.doc"
+URL1 = r"G:\Vlad\parsers_real\parsers\test_files\Hello world test.doc"
+URL2 = r"G:\Vlad\parsers_real\parsers\test_files\multieng test.doc"
+URL3 = r"G:\Vlad\parsers_real\parsers\test_files\text_14_paragraphs.doc"
 
 EXPECTED_TEXT_1 = """HELLO WORLD!!!
 Advanced-technolocies’s in 2015` year./"""

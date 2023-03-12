@@ -2,7 +2,7 @@ from sys import platform
 import os
 
 from win32com import client as cl
-import docx__parser 
+import docx__parser
 
 
 def windows_converter(path: str) -> None:
