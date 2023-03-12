@@ -8,7 +8,7 @@ def parser(link: str, parser: str = "lxml") -> tuple[list[str], list[str]]:
     if response.status_code != 200:
         return None
     soup = BeautifulSoup(response.text, parser)
-    return [s for s in soup.stripped_strings], [a.get('href') for a in soup.find_all('a')]
+    return [s for s in soup.stripped_strings], [a.get('href') for a in soup.find_all() if a.get('href') != None]
 
 
 def main():
