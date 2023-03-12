@@ -2,7 +2,7 @@ from sys import platform
 import os
 
 from win32com import client as cl
-import docx__parser
+from .docx__parser import parser
 
 
 def windows_converter(path: str) -> None:
@@ -36,7 +36,7 @@ def doc_to_docx(path: str) -> str:
 
 def parser(path: str) -> list[str]:
     new_path = doc_to_docx(path)
-    return docx__parser.parser(new_path)
+    return parser(new_path)
 
 
 def main():
