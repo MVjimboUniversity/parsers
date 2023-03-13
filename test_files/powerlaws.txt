@@ -1,0 +1,83 @@
+B Maximum likelihood estimate of exponents 27
+[42] B. B. Mandelbrot, An information theory of the statsit-
+ical structure of languages. In W. Jackson (ed.), Symp.
+Applied Communications Theory, pp. 486–502, Butterworth,
+Woburn, MA (1953).
+[43] W. J. Reed and B. D. Hughes, From gene families and
+genera to incomes and internet file sizes: Why power laws
+are so common in nature. Phys. Rev. E 66, 067103 (2002).
+[44] J.-P. Bouchaud, More L ́evy distributions in physics. In
+M. F. Shlesinger, G. M. Zaslavsky, and U. Frisch (eds.),
+L ́evy Flights and Related Topics in Physics, number 450 in
+Lecture Notes in Physics, Springer, Berlin (1995).
+[45] N. Jan, L. Moseley, T. Ray, and D. Stauffer, Is the fossil
+record indicative of a critical system? Adv. Complex Syst.
+2, 137–141 (1999).
+[46] D. Sornette, Mechanism for powerlaws without self-
+organization. Int. J. Mod. Phys. C 13, 133–136 (2001).
+[47] R. H. Swendsen and J.-S. Wang, Nonuniversal critical dy-
+namics in Monte Carlo simulations. Phys. Rev. Lett. 58,
+86–88 (1987).
+[48] K. Sneppen, P. Bak, H. Flyvbjerg, and M. H. Jensen, Evo-
+lution as a self-organized critical phenomenon. Proc. Natl.
+Acad. Sci. USA 92, 5209–5213 (1995).
+[49] M. E. J. Newman and R. G. Palmer, Modeling Extinction.
+Oxford University Press, Oxford (2003).
+[50] D. J. de S. Price, A general theory of bibliometric and other
+cumulative advantage processes. J. Amer. Soc. Inform. Sci.
+27, 292–306 (1976).
+[51] P. L. Krapivsky, S. Redner, and F. Leyvraz, Connectivity of
+growing random networks. Phys. Rev. Lett. 85, 4629–4632
+(2000).
+[52] A.-L. Barab ́asi and R. Albert, Emergence of scaling in ran-
+dom networks. Science 286, 509–512 (1999).
+[53] S. N. Dorogovtsev, J. F. F. Mendes, and A. N. Samukhin,
+Structure of growing networks with preferential linking.
+Phys. Rev. Lett. 85, 4633–4636 (2000).
+[54] R. K. Merton, The Matthew effect in science. Science 159,
+56–63 (1968).
+[55] P. J. Reynolds, W. Klein, and H. E. Stanley, A real-space
+renormalization group for site and bond percolation. J.
+Phys. C 10, L167–L172 (1977).
+[56] K. G. Wilson and J. Kogut, The renormalization group and
+the -expansion. Physics Reports 12, 75–199 (1974).
+[57] P. Bak, C. Tang, and K. Wiesenfeld, Self-organized criti-
+cality: An explanation of the 1/f noise. Phys. Rev. Lett. 59,
+381–384 (1987).
+[58] B. Drossel and F. Schwabl, Self-organized critical forest-
+fire model. Phys. Rev. Lett. 69, 1629–1632 (1992).
+[59] P. Grassberger, Critical behaviour of the drossel-schwabl
+forest fire model. New Journal of Physics 4, 17 (2002).
+[60] P. Bak, How Nature Works: The Science of Self-Organized
+Criticality. Copernicus, New York (1996).
+[61] P. Bak and C. Tang, Earthquakes as a self-organized critical
+phenomenon. Journal of Geophysical Research 94, 15635–
+15637 (1989).
+[62] Z. Olami, H. J. S. Feder, and K. Christensen, Self-organized
+criticality in a continuous, nonconservative cellular au-
+tomaton modeling earthquakes. Phys. Rev. Lett. 68, 1244–
+1247 (1992).
+[63] P. Bak and K. Sneppen, Punctuated equilibrium and crit-
+icality in a simple model of evolution. Phys. Rev. Lett. 74,
+4083–4086 (1993).
+[64] J. M. Carlson and J. Doyle, Highly optimized tolerance:
+A mechanism for power laws in designed systems. Phys.
+Rev. E 60, 1412–1427 (1999).
+[65] J. M. Carlson and J. Doyle, Highly optimized tolerance:
+Robustness and design in complex systems. Phys. Rev. Lett.
+84, 2529–2532 (2000).
+[66] K. Sneppen and M. E. J. Newman, Coherent noise, scale
+invariance and intermittency in large systems. Physica D
+110, 209–222 (1997).
+[67] D. Sornette and R. Cont, Convergent multiplicative pro-
+cesses repelled from zero: Power laws and truncated
+power laws. Journal de Physique I 7, 431–444 (1997).
+[68] D. Sornette, Multiplicative processes and power laws.
+Phys. Rev. E 57, 4811–4813 (1998).
+[69] X. Gabaix, Zipf’s law for cities: An explanation. Quarterly
+Journal of Economics 114, 739–767 (1999).
+[70] P. Sibani and P. B. Littlewood, Slow dynamics from noise
+adaptation. Phys. Rev. Lett. 71, 1482–1485 (1993).
+[71] P. Sibani, M. R. Schmidt, and P. Alstrøm, Fitness optimiza-
+tion and decay of the extinction rate through biological
+evolution. Phys. Rev. Lett. 75, 2055–2058 (1995).
