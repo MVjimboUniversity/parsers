@@ -28,13 +28,13 @@
 - Сохраняет структуру документа.
 - Запустить тесты: `python -m pytest tests/test_pdf_parser3.py`
 
-## docx parser
+## docx парсер
 - На основе docx_parser
 - Позволяет парсить локальные файлы.
 - Позволяет получать информацию по параграфам, а также информацию из таблиц.
 - Запустить тесты: `python -m pytest tests/test_docx_parser.py`
 
-## doc parser
+## doc парсер
 - doc-файлы конвертируются в docx и далее используется docx парсер.
     - Для Windows используется пакет Python for Windows Extensions (pywin32) для конвертирования.
     - Для Linux и macOS используется LibreOffice CLI "Lowriter" для конвертирования.
